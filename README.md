@@ -8,7 +8,9 @@ A bite-size gem for finding the next occurrence of the *n*th *week*day of the mo
 
 Add this line to your application's Gemfile:
 
-    gem 'nth_day'
+```ruby
+gem 'nth_day'
+```
 
 And then execute:
 
@@ -20,17 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-Find the next occurrence of the nth day specified:
+```ruby
+require 'nth_day'
 
-    NthDay.next_occurrence("1st Tuesday") 
-
-You can also pass in a custom value for the date to start from if you don't want to find the next date from today:
-
-    NthDay.next_occurrence("1st Tuesday", Date.today - 1) 
-
-NthDay can handle abbreviated weekday names, and is case-insensitive.  As long as your name has the first two characters of the name, NthDay will recognize it:
-
-    NthDay.next_occurrence("1st Tu")
+NthDay.next_occurrence("1st Tuesday") 
+```
 
 ## Testing
 
@@ -40,7 +36,7 @@ NthDay uses [RSpec](http://rspec.info) for testing.  To run the tests:
 
 ## Contributing
 
-1. Fork it ( https://github.com/dmur/nth-day/fork )
+1. Fork it (https://github.com/dmur/nth-day/fork)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
