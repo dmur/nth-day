@@ -1,5 +1,7 @@
 # NthDay
 
+[![Build Status](https://travis-ci.org/dmur/nth-day.svg?branch=master)](https://travis-ci.org/dmur/nth-day) [![Coverage Status](https://coveralls.io/repos/dmur/nth-day/badge.svg?branch=master)](https://coveralls.io/r/dmur/nth-day?branch=master) 
+
 A bite-size gem for finding the next occurrence of the *n*th *week*day of the month.  For example, you can use it to find the next "2nd Monday" that will occur. 
 
 ## Installation
