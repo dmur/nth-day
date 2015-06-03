@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = NthDay::VERSION
   spec.authors       = ["Dolan Murphy"]
   spec.email         = ["admin@dmur.me"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Query for the next nth weekday of the month.}
+  spec.description   = %q{Nth day allows you to specify dates in the format "1st Tuesday", and have returned a date for the next occurrence of that day.}
+  spec.homepage      = "http://github.com/dmur/nth-day"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
